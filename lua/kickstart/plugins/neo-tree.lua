@@ -18,7 +18,11 @@ return {
       window = {
         mappings = {
           ['\\'] = 'close_window',
+          ['l'] = 'open',
         },
+      },
+      filtered_items = {
+        visible = true,
       },
     },
   },

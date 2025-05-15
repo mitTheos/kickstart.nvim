@@ -55,6 +55,13 @@ return {
         -- Toggles
         map('n', '<leader>tb', gitsigns.toggle_current_line_blame, { desc = '[T]oggle git show [b]lame line' })
         map('n', '<leader>tD', gitsigns.preview_hunk_inline, { desc = '[T]oggle git show [D]eleted' })
+
+        -- define custom colors for highlighting of signs
+        vim.cmd [[
+        highlight GitSignsAdd guifg=#00ff00 ctermfg=Green
+        highlight GitSignsChange guifg=#ffff00 ctermfg=Yellow
+        highlight GitSignsDelete guifg=#ff0000 ctermfg=Red
+      ]]
       end,
     },
   },
