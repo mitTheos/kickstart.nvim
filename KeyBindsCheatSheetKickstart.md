@@ -15,7 +15,11 @@ sf = search files (I think this only shows git tracked files)
 ctrl o = jump back (in the jumplist) 
 ctrl i = jump forward (in the jumplist)
 
-
+gx = open link under cursor
+gf = open file under cursor
+<line_number>G = go to line
+. = redo last action
+* = search for word under cursor
 
 ## Ghostty
 ctrl + shift + o = split new termial right side
